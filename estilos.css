@@ -2,7 +2,7 @@
 
 html{
     background-image: url('img/ctr.png'); /* Ruta */
-    background-size: 60% auto; /* Tamaño de la imagen de fondo (50% de la pantalla de ancho y automáticamente de alto) */
+    background-size: 60% auto; /* Tamaño de la imagen de fondo (60% de la pantalla de ancho y automáticamente de alto) */
     background-position: bottom right ; /* Posición de la imagen de fondo (abajo a la izq) */
     background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
     /* Otros estilos para el cuerpo de la página */
@@ -83,7 +83,7 @@ address{
 
 /*IMAGEN */
 .IA{
-    width: 700px; /* ancho*/
-    height: 400px; /* largo*/
+    width: 700px auto; /* ancho*/
+    height: 400px auto; /* largo*/
     border:  20px solid #60a5677b;
 }
