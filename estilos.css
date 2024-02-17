@@ -1,0 +1,84 @@
+/* Resetear estilos y estilizar la barra de navegación */
+
+html{
+    background-image: url('img/ctr.png'); /* Ruta */
+    background-size: 60% auto; /* Tamaño de la imagen de fondo (50% de la pantalla de ancho y automáticamente de alto) */
+    background-position: bottom right ; /* Posición de la imagen de fondo (abajo a la izq) */
+    background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
+    /* Otros estilos para el cuerpo de la página */
+    background-color: #f6fbf9f6 ;
+}
+
+
+a[href$=".html"]{
+    border: 5px solid #f7f2f2;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: #f7f2f2;
+    color: #13432c77;
+    font-family: 'Arial';
+
+}
+/*cambiar cuando pasa el mouse*/
+a[href$=".html"]:hover {
+    background-color: #13432c77;
+    color: #f7f2f2;
+}
+
+header{
+    background-color: #60a567;
+    padding: 1%;  
+    font-size: 50px;
+    margin-top: auto;
+    text-align: center;
+    color: #13432c;
+    font-family: 'Tahoma';
+    font-weight: bold;
+}
+
+nav {
+    background-color: #60a567;
+    margin: 0 auto;    
+    font-size: 25px;
+
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+    text-align: center;
+}
+
+/* Estilos para cuando el enlace está activo */
+nav a:active {
+    background-color: #f7f2f2;
+}
+
+
+/* TEXTO */
+.MN{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;/*texto negrita */
+}
+
+p, dl, dt, dd, li{
+    font-family: 'Arial';
+    font-size: 20px;
+    color: #0a0a0a;
+
+}
+
+h2{
+    font-family: 'Tahoma';
+}
+
+address{
+    display: block;
+    font-family: 'Italic';
+}
+
+/*TABLA */
