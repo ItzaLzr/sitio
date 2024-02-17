@@ -81,4 +81,9 @@ address{
     font-family: 'Italic';
 }
 
-/*TABLA */
+/*IMAGEN */
+.IA{
+    width: 700px; /* ancho*/
+    height: 400px; /* largo*/
+    border:  20px solid #60a5677b;
+}
