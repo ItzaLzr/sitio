@@ -81,11 +81,38 @@ address{
     font-family: 'Italic';
 }
 
+.Right{
+    flex: 1;/*expandir a la der */
+    background-color: #60a567a5;
+    padding: 20px;
+    margin-bottom: 10 px;
+    margin: 0;
+}
+
 /*IMAGEN */
 .IA{
-    width: 700px ; /* ancho*/
-    height: 400px ; /* largo*/
+    width: 500px ; /* ancho*/
+    height: 200px ; /* largo*/
     border:  20px solid #60a5677b;
     max-width: 100%;
     height: auto;
+}
+
+img{
+    width: 700px ; /* ancho*/
+    height: 400px ; /* largo*/
+    max-width: 100% ; /* ancho*/
+    height: auto ; /* largo*/
+    display: block;
+}
+
+.Left{
+    flex: 1;/*expandir a la izq */
+    padding: 20px;
+}
+
+
+.CNT{
+    display: flex;
+    align-items: flex-start;/*estira los elementos*/
 }
