@@ -104,13 +104,15 @@ img{
     max-width: 100% ; /* ancho*/
     height: auto ; /* largo*/
     display: block;
+    margin: 0 auto;
 }
 
 .Left{
     flex: 1;/*expandir a la izq */
     padding: 20px;
+    max-width: 100% ;
+    height: auto ;
 }
-
 
 .CNT{
     display: flex;
