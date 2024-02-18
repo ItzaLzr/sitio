@@ -88,7 +88,11 @@ address{
     margin-bottom: 10 px;
     margin: 0;
 }
+/* FORM*/
 
+#espacio{
+    margin-bottom: 10px;
+}
 /*IMAGEN */
 .IA{
     width: 500px ; /* ancho*/
